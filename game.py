@@ -1,4 +1,5 @@
 import random
+from logger import console
 rules = ["rock", "scissor", "paper"]
 computer = rules[random.randint(0, 2)]
 print(computer)

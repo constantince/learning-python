@@ -12,8 +12,3 @@ def fib(arg, t="2", c="8"):
 m = fib("go", "bad", "good");
 
 print(m)
-
-from urllib.request import urlopen
-with urlopen('https://www.baidu.com') as response:
-    for line in response:
-        print(line)
